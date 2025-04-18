@@ -38,11 +38,26 @@ FusionFCN‑SemSeg/
 
 ---
 
+## Data Availability
+
+The `dataset/` folder contains all the `.npy` files for training, validation, and testing. Due to size constraints, the data is managed via Git Large File Storage (LFS). To fetch the data after cloning:
+
+```bash
+git lfs install          # install Git LFS if you haven't already
+git clone https://github.com/SharinganWarrior/FusionFCN‑SemSeg.git
+cd FusionFCN‑SemSeg
+git lfs pull             # download the actual dataset files
+```
+
+Alternatively, you can download the dataset ZIP from the latest [GitHub Release](https://github.com/SharinganWarrior/FusionFCN‑SemSeg/releases/latest) and extract it into the `dataset/` directory.
+
+---
+
 ## Setup & Installation
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/yourusername/FusionFCN‑SemSeg.git
+   git clone https://github.com/SharinganWarrior/FusionFCN‑SemSeg.git
    cd FusionFCN‑SemSeg
    ```
 
